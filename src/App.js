@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import {HashRouter as Router,Route,Routes,Navigate} from 'react-router-dom';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './navbar.js';
 import Login from './pages/login.js';
 import Home from './pages/home.js';
